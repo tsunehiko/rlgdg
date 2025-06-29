@@ -1,0 +1,502 @@
+{
+    "board/space/connection/Gale.lud": [
+        "board/space/connection/Abak.lud",
+        "board/space/connection/Havannah.lud",
+        "board/space/connection/Cross.lud"
+    ],
+    "board/space/line/Yavalath.lud": [
+        "board/space/line/Complica.lud",
+        "board/space/line/Order and Chaos.lud",
+        "board/space/line/Traffic Lights.lud"
+    ],
+    "board/space/connection/Hex.lud": [
+        "board/space/connection/Sponnect.lud",
+        "board/space/connection/Troll.lud",
+        "board/space/connection/Master Y.lud"
+    ],
+    "board/space/group/Spao.lud": [
+        "board/space/group/Adere.lud",
+        "board/space/group/Gygoreg.lud",
+        "board/space/group/Omega.lud"
+    ],
+    "board/space/line/3D Tic-Tac-Toe.lud": [
+        "board/space/line/Nao Guti.lud",
+        "board/space/line/Dra.lud",
+        "board/space/line/Connect Four.lud"
+    ],
+    "board/space/line/Gomoku.lud": [
+        "board/space/line/Tic-Tac-Mo.lud",
+        "board/space/line/Sujjua.lud",
+        "board/space/line/Pente.lud"
+    ],
+    "board/space/line/Tic-Tac-Mo.lud": [
+        "board/space/line/Trianon.lud",
+        "board/space/line/Teeko.lud",
+        "board/space/line/Tic-Tac-Die.lud"
+    ],
+    "board/space/territory/Go.lud": [
+        "board/space/territory/Rolit.lud",
+        "board/space/territory/Patok.lud",
+        "board/space/territory/Reversi.lud"
+    ],
+    "puzzle/deduction/Latin Square.lud": [
+        "puzzle/deduction/Fill A Pix.lud",
+        "puzzle/deduction/Slitherlink.lud",
+        "puzzle/deduction/Futoshiki.lud"
+    ],
+    "board/war/leaping/lines/Bara Guti (Bihar).lud": [
+        "board/war/leaping/lines/Terhuchu (Small).lud",
+        "board/war/leaping/lines/Kaua Dorki.lud",
+        "board/war/leaping/lines/Padaivettu.lud"
+    ],
+    "puzzle/planning/Tower of Hanoi.lud": [
+        "puzzle/planning/Lam Turki.lud",
+        "puzzle/planning/Tchoukaillon.lud",
+        "puzzle/planning/N Puzzles.lud"
+    ],
+    "board/space/blocking/Amazons.lud": [
+        "board/space/blocking/Root.lud",
+        "board/space/blocking/Migration.lud",
+        "board/space/blocking/Un.lud"
+    ],
+    "board/space/line/Connect Four.lud": [
+        "board/space/line/Wali.lud",
+        "board/space/line/Ngre E E.lud",
+        "board/space/line/Winkers.lud"
+    ],
+    "board/race/reach/Breakthrough.lud": [
+        "board/race/reach/Bombardment.lud",
+        "board/race/reach/Bison.lud",
+        "board/race/reach/The Pawn Game.lud"
+    ],
+    "board/space/blocking/Isolation.lud": [
+        "board/space/blocking/NoGo.lud",
+        "board/space/blocking/Oumoul Kono.lud",
+        "board/space/blocking/T'uk T'uk.lud"
+    ],
+    "board/hunt/Three Musketeers.lud": [
+        "board/hunt/Nuktagaq.lud",
+        "board/hunt/El Zorro.lud",
+        "board/hunt/Adugo.lud"
+    ],
+    "board/space/connection/Cross.lud": [
+        "board/space/connection/Diagonal Hex.lud",
+        "board/space/connection/Gonnect.lud",
+        "board/space/connection/Sponnect.lud"
+    ],
+    "board/race/reach/Bison.lud": [
+        "board/race/reach/Fianco.lud",
+        "board/race/reach/Aboyne.lud",
+        "board/race/reach/Gyan Chaupar.lud"
+    ],
+    "board/race/fill/Aralzaa.lud": [
+        "board/race/fill/O-Pat-Kono.lud",
+        "board/race/fill/Bajr.lud",
+        "board/race/fill/Lelac.lud"
+    ],
+    "board/race/reach/Thales.lud": [
+        "board/race/reach/Knightthrough.lud",
+        "board/race/reach/Aboyne.lud",
+        "board/race/reach/Fianco.lud"
+    ],
+    "board/race/reach/The Pawn Game.lud": [
+        "board/race/reach/Jeson Mor.lud",
+        "board/race/reach/Gyan Chaupar.lud",
+        "board/race/reach/Bombardment.lud"
+    ],
+    "board/race/reach/Jeson Mor.lud": [
+        "board/race/reach/Thales.lud",
+        "board/race/reach/Aboyne.lud",
+        "board/race/reach/King's Valley.lud"
+    ],
+    "board/race/reach/Fianco.lud": [
+        "board/race/reach/Gyan Chaupar.lud",
+        "board/race/reach/Center.lud",
+        "board/race/reach/Breakthrough.lud"
+    ],
+    "board/race/fill/Shanzak Kammar.lud": [
+        "board/race/fill/Aralzaa.lud",
+        "board/race/fill/Lelac.lud",
+        "board/race/fill/O-Pat-Kono.lud"
+    ],
+    "board/race/fill/Bajr.lud": [
+        "board/race/fill/Shanzak Kammar.lud",
+        "board/race/fill/Aralzaa.lud",
+        "board/race/fill/Lelac.lud"
+    ],
+    "reconstruction/done/board/sow/two_rows/Abanga.lud": [
+        "reconstruction/done/board/sow/two_rows/Mandinka Game.lud",
+        "reconstruction/done/board/sow/two_rows/A-i-u.lud",
+        "reconstruction/done/board/sow/two_rows/Mak Khom.lud"
+    ],
+    "reconstruction/done/board/sow/two_rows/Mandoli.lud": [
+        "reconstruction/done/board/sow/two_rows/Manddiare.lud",
+        "reconstruction/done/board/sow/two_rows/Mak Khom.lud",
+        "reconstruction/done/board/sow/two_rows/A-i-u.lud"
+    ],
+    "board/sow/two_rows/Halusa.lud": [
+        "board/sow/two_rows/Kay.lud",
+        "board/sow/two_rows/Fondji.lud",
+        "board/sow/two_rows/Mangala (Turkey).lud"
+    ],
+    "board/sow/two_rows/Adidada.lud": [
+        "board/sow/two_rows/Ntyenge.lud",
+        "board/sow/two_rows/Unnee Tugalluulax.lud",
+        "board/sow/two_rows/Das Bohnenspiel.lud"
+    ],
+    "board/sow/two_rows/Uril.lud": [
+        "board/sow/two_rows/Um el-Bil.lud",
+        "board/sow/two_rows/Oware.lud",
+        "board/sow/two_rows/Oure Ngat.lud"
+    ],
+    "board/sow/two_rows/Chonka.lud": [
+        "board/sow/two_rows/Fondji.lud",
+        "board/sow/two_rows/Boukerourou.lud",
+        "board/sow/two_rows/Wari.lud"
+    ],
+    "board/sow/two_rows/Aw-li On-nam Ot-tjin.lud": [
+        "board/sow/two_rows/Mankala.lud",
+        "board/sow/two_rows/Altiev.lud",
+        "board/sow/two_rows/Um el-Bil.lud"
+    ],
+    "board/sow/two_rows/Kapana Bona.lud": [
+        "board/sow/two_rows/Awari.lud",
+        "board/sow/two_rows/Vai Lung Thlan.lud",
+        "board/sow/two_rows/Uril.lud"
+    ],
+    "board/sow/two_rows/Oware.lud": [
+        "board/sow/two_rows/Pachgarhwa.lud",
+        "board/sow/two_rows/Wore.lud",
+        "board/sow/two_rows/Wari.lud"
+    ],
+    "board/sow/two_rows/Das Bohnenspiel.lud": [
+        "board/sow/two_rows/Wore.lud",
+        "board/sow/two_rows/Vai Lung Thlan.lud",
+        "board/sow/two_rows/Halusa.lud"
+    ],
+    "puzzle/planning/Jiu Zi Xian Qi.lud": [
+        "puzzle/planning/Lam Turki.lud",
+        "puzzle/planning/Nao Gutiya Baithaneka.lud",
+        "puzzle/planning/Lights Out.lud"
+    ],
+    "puzzle/planning/Tchoukaillon.lud": [
+        "puzzle/planning/Peg Solitaire.lud",
+        "puzzle/planning/Chuka.lud",
+        "puzzle/planning/Insanity.lud"
+    ],
+    "puzzle/deduction/Magic Square.lud": [
+        "puzzle/deduction/Magic Hexagon.lud",
+        "puzzle/deduction/Squaro.lud",
+        "puzzle/deduction/Sudoku Mine.lud"
+    ],
+    "puzzle/planning/Monty Hall Problem.lud": [
+        "puzzle/planning/Lam Turki.lud",
+        "puzzle/planning/Pentalpha.lud",
+        "puzzle/planning/Knight's Tour.lud"
+    ],
+    "puzzle/deduction/Sudoku Mine.lud": [
+        "puzzle/deduction/Squaro.lud",
+        "puzzle/deduction/N Queens.lud",
+        "puzzle/deduction/Magic Hexagon.lud"
+    ],
+    "puzzle/deduction/Fill A Pix.lud": [
+        "puzzle/deduction/Sudoku Mine.lud",
+        "puzzle/deduction/Magic Square.lud",
+        "puzzle/deduction/N Queens.lud"
+    ],
+    "puzzle/deduction/Slitherlink.lud": [
+        "puzzle/deduction/Futoshiki.lud",
+        "puzzle/deduction/Takuzu.lud",
+        "puzzle/deduction/Squaro.lud"
+    ],
+    "puzzle/planning/Knight's Tour.lud": [
+        "puzzle/planning/Peg Solitaire.lud",
+        "puzzle/planning/Insanity.lud",
+        "puzzle/planning/Tchoukaillon.lud"
+    ],
+    "puzzle/deduction/N Queens.lud": [
+        "puzzle/deduction/Sudoku.lud",
+        "puzzle/deduction/Futoshiki.lud",
+        "puzzle/deduction/Magic Hexagon.lud"
+    ],
+    "puzzle/deduction/Sudoku.lud": [
+        "puzzle/deduction/Fill A Pix.lud",
+        "puzzle/deduction/Takuzu.lud",
+        "puzzle/deduction/Squaro.lud"
+    ],
+    "board/space/line/Teeko.lud": [
+        "board/space/line/Shiva.lud",
+        "board/space/line/Wali.lud",
+        "board/space/line/Tic-Tac-Chess.lud"
+    ],
+    "board/space/line/Six-Penny Madell.lud": [
+        "board/space/line/Nine Holes.lud",
+        "board/space/line/Ngre E E.lud",
+        "board/space/line/Andantino.lud"
+    ],
+    "board/space/line/Tapatan.lud": [
+        "board/space/line/Engijn Zirge.lud",
+        "board/space/line/T'mbl.lud",
+        "board/space/line/Six Men's Morris.lud"
+    ],
+    "board/space/line/Tic-Tac-Toe Misere.lud": [
+        "board/space/line/Shiva.lud",
+        "board/space/line/Tic-Tac-Mo.lud",
+        "board/space/line/Complica.lud"
+    ],
+    "reconstruction/done/board/space/line/Rongmei Naga Alignment Game.lud": [
+        "reconstruction/done/board/space/line/Li'b al-Sidr.lud",
+        "reconstruction/done/board/space/line/Picaria (Large).lud",
+        "reconstruction/done/board/space/line/Yakamaido.lud"
+    ],
+    "board/space/line/Dris at-Talata.lud": [
+        "board/space/line/Mlabalaba.lud",
+        "board/space/line/Yavalath.lud",
+        "board/space/line/Score Four.lud"
+    ],
+    "reconstruction/done/board/space/line/Li'b al-Sidr.lud": [
+        "reconstruction/done/board/space/line/Yakamaido.lud",
+        "reconstruction/done/board/space/line/Diris.lud",
+        "reconstruction/done/board/space/line/Banyarwanda Mill Game.lud"
+    ],
+    "board/space/line/Tuk Tak.lud": [
+        "board/space/line/Yavalade.lud",
+        "board/space/line/Mbenga Alignment Game.lud",
+        "board/space/line/Gomoku.lud"
+    ],
+    "reconstruction/done/board/space/line/Banyarwanda Mill Game.lud": [
+        "reconstruction/done/board/space/line/Trique.lud",
+        "reconstruction/done/board/space/line/Duqurjin.lud",
+        "reconstruction/done/board/space/line/Atidada.lud"
+    ],
+    "reconstruction/done/board/space/line/Trique.lud": [
+        "reconstruction/done/board/space/line/Rongmei Naga Alignment Game.lud",
+        "reconstruction/done/board/space/line/Atidada.lud",
+        "reconstruction/done/board/space/line/Duqurjin.lud"
+    ],
+    "board/war/leaping/lines/Dash Guti.lud": [
+        "board/war/leaping/lines/Ratti-Chitti-Bakri.lud",
+        "board/war/leaping/lines/Alquerque.lud",
+        "board/war/leaping/lines/Bis Gutiya.lud"
+    ],
+    "reconstruction/done/board/war/leaping/lines/Manipur Capturing Game.lud": [
+        "reconstruction/done/board/war/leaping/lines/Aiyawatstani.lud",
+        "reconstruction/done/board/war/leaping/lines/Smasandyutakankarikrida.lud",
+        "reconstruction/done/board/war/leaping/lines/Wan Fu Cave Game.lud"
+    ],
+    "board/war/custodial/Maak Yek.lud": [
+        "board/war/custodial/Gundru.lud",
+        "board/war/custodial/Seega.lud",
+        "board/war/custodial/Boseog Gonu.lud"
+    ],
+    "board/war/custodial/Poprad Game.lud": [
+        "board/war/custodial/Seega.lud",
+        "board/war/custodial/Gundru.lud",
+        "board/war/custodial/Kharebga (5x5).lud"
+    ],
+    "reconstruction/done/board/war/leaping/lines/Qirkat.lud": [
+        "reconstruction/done/board/war/leaping/lines/Taptana.lud",
+        "reconstruction/done/board/war/leaping/lines/Lu Qi.lud",
+        "reconstruction/done/board/war/leaping/lines/Manipur Capturing Game.lud"
+    ],
+    "board/war/leaping/orthogonal/Caturvimsatikosthakatmiki Krida.lud": [
+        "board/war/leaping/orthogonal/Yote.lud",
+        "board/war/leaping/orthogonal/Leap Frog.lud",
+        "board/war/leaping/orthogonal/Choko.lud"
+    ],
+    "board/war/leaping/orthogonal/Queah Game.lud": [
+        "board/war/leaping/orthogonal/Tre Guti.lud",
+        "board/war/leaping/orthogonal/Choko.lud",
+        "board/war/leaping/orthogonal/Natt Klab ash-Shawk.lud"
+    ],
+    "board/war/leaping/orthogonal/Xarajlt.lud": [
+        "board/war/leaping/orthogonal/Leap Frog.lud",
+        "board/war/leaping/orthogonal/Laram Wali.lud",
+        "board/war/leaping/orthogonal/Caturvimsatikosthakatmiki Krida.lud"
+    ],
+    "board/war/leaping/lines/Ratti-Chitti-Bakri.lud": [
+        "board/war/leaping/lines/Dash Guti.lud",
+        "board/war/leaping/lines/Kotu Ellima.lud",
+        "board/war/leaping/lines/Tuknanavuhpi.lud"
+    ],
+    "board/war/leaping/lines/Buudal.lud": [
+        "board/war/leaping/lines/Ram Tir.lud",
+        "board/war/leaping/lines/Lau Kata Kati.lud",
+        "board/war/leaping/lines/Pam Pait.lud"
+    ],
+    "board/space/line/Tic-Tac-Chess.lud": [
+        "board/space/line/Sujjua.lud",
+        "board/space/line/Neutreeko.lud",
+        "board/space/line/Ngrin.lud"
+    ],
+    "board/space/group/Make Muster.lud": [
+        "board/space/group/Omega.lud",
+        "board/space/group/Bounce.lud",
+        "board/space/group/Groups.lud"
+    ],
+    "reconstruction/done/board/war/other/Rongmei Naga Capturing Game.lud": [
+        "reconstruction/done/board/war/other/Eleven-Fang.lud",
+        "reconstruction/done/board/war/other/Ufuba wa Hulana.lud",
+        "reconstruction/done/board/war/other/Ludus Rebellionis 2.lud"
+    ],
+    "board/space/line/Nzengue (Small).lud": [
+        "board/space/line/Order and Chaos.lud",
+        "board/space/line/Yavalade.lud",
+        "board/space/line/Five Men's Morris.lud"
+    ],
+    "board/war/leaping/orthogonal/Leap Frog.lud": [
+        "board/war/leaping/orthogonal/Caturvimsatikosthakatmiki Krida.lud",
+        "board/war/leaping/orthogonal/Choko.lud",
+        "board/war/leaping/orthogonal/Laram Wali.lud"
+    ],
+    "reconstruction/done/board/space/line/Malomjatek.lud": [
+        "reconstruction/done/board/space/line/Adzua.lud",
+        "reconstruction/done/board/space/line/Cashlan Gherra.lud",
+        "reconstruction/done/board/space/line/Li'b al-Sidr.lud"
+    ],
+    "board/space/line/Wari (Alignment).lud": [
+        "board/space/line/Notakto.lud",
+        "board/space/line/Connect6.lud",
+        "board/space/line/Moxie.lud"
+    ],
+    "reconstruction/done/board/war/other/Samoan Game.lud": [
+        "reconstruction/done/board/war/other/Ludus Rebellionis (Asymmetric).lud",
+        "reconstruction/done/board/war/other/Ludus Rebellionis 2.lud",
+        "reconstruction/done/board/war/other/Rongmei Naga Capturing Game.lud"
+    ],
+    "board/sow/two_rows/Fondji.lud": [
+        "board/sow/two_rows/Mankala.lud",
+        "board/sow/two_rows/Boukerourou.lud",
+        "board/sow/two_rows/Meusueb.lud"
+    ],
+    "board/space/line/Notakto.lud": [
+        "board/space/line/Round Merels.lud",
+        "board/space/line/Dara.lud",
+        "board/space/line/Tsoro Yemutatu.lud"
+    ],
+    "board/sow/two_rows/Oure Ngat.lud": [
+        "board/sow/two_rows/French Wari.lud",
+        "board/sow/two_rows/Wore.lud",
+        "board/sow/two_rows/Adidada.lud"
+    ],
+    "board/space/blocking/NoGo.lud": [
+        "board/space/blocking/Isolation.lud",
+        "board/space/blocking/Un.lud",
+        "board/space/blocking/Root.lud"
+    ],
+    "board/space/line/Morabaraba.lud": [
+        "board/space/line/Dris at-Talata.lud",
+        "board/space/line/Keryo-Pente.lud",
+        "board/space/line/Fivalath.lud"
+    ],
+    "board/space/line/CustAndantino.lud": [
+        "board/space/line/Dara.lud",
+        "board/space/line/Tsoro Yemutatu (Triangle).lud",
+        "board/space/line/Dris at-Talata.lud"
+    ],
+    "board/space/blocking/Lewthwaite's Game.lud": [
+        "board/space/blocking/Cram.lud",
+        "board/space/blocking/Oumoul Kono.lud",
+        "board/space/blocking/Madelinette.lud"
+    ],
+    "reconstruction/done/board/war/other/Ludus Rebellionis 2.lud": [
+        "reconstruction/done/board/war/other/Cumisitha.lud",
+        "reconstruction/done/board/war/other/Eleven-Fang.lud",
+        "reconstruction/done/board/war/other/Samoan Game.lud"
+    ],
+    "board/space/line/Triodi (Diagonal).lud": [
+        "board/space/line/Mylna.lud",
+        "board/space/line/Nao Guti.lud",
+        "board/space/line/Dara.lud"
+    ],
+    "board/space/connection/Span.lud": [
+        "board/space/connection/Gonnect.lud",
+        "board/space/connection/Hex.lud",
+        "board/space/connection/Crossway.lud"
+    ],
+    "board/hunt/Nuktagaq.lud": [
+        "board/hunt/Koti Keliya.lud",
+        "board/hunt/Fox and Geese.lud",
+        "board/hunt/Three Musketeers.lud"
+    ],
+    "board/space/line/Mbenga Alignment Game.lud": [
+        "board/space/line/Tant Fant.lud",
+        "board/space/line/Djara-Badakh.lud",
+        "board/space/line/Nerenchi Keliya.lud"
+    ],
+    "board/war/leaping/lines/Gol Ekuish.lud": [
+        "board/war/leaping/lines/Ram Tir.lud",
+        "board/war/leaping/lines/Bis Gutiya.lud",
+        "board/war/leaping/lines/Buudal.lud"
+    ],
+    "board/space/line/Ngrin.lud": [
+        "board/space/line/Three Men's Morris.lud",
+        "board/space/line/Score Four.lud",
+        "board/space/line/Tic-Tac-Toe Misere.lud"
+    ],
+    "board/hunt/Ko-app-paw-na.lud": [
+        "board/hunt/Yeung Luk Sz' Kon Tseung Kwan.lud",
+        "board/hunt/Mysore Tiger Game (Two Tigers).lud",
+        "board/hunt/Ludus Coriovalli.lud"
+    ],
+    "board/space/territory/HexGo.lud": [
+        "board/space/territory/Quathaxx.lud",
+        "board/space/territory/Inkblots.lud",
+        "board/space/territory/Weiqi.lud"
+    ],
+    "board/hunt/Yeung Luk Sz' Kon Tseung Kwan.lud": [
+        "board/hunt/Rimoe.lud",
+        "board/hunt/Mysore Tiger Game.lud",
+        "board/hunt/Haretavl.lud"
+    ],
+    "board/war/leaping/lines/Kharbaga.lud": [
+        "board/war/leaping/lines/Kaua Dorki.lud",
+        "board/war/leaping/lines/Gol Ekuish.lud",
+        "board/war/leaping/lines/Tavelspel.lud"
+    ],
+    "board/space/line/Dara.lud": [
+        "board/space/line/T'mbl.lud",
+        "board/space/line/3 6 9.lud",
+        "board/space/line/Yavalax.lud"
+    ],
+    "board/space/line/Tant Fant.lud": [
+        "board/space/line/Fart (7x7).lud",
+        "board/space/line/Connect Four.lud",
+        "board/space/line/Traffic Lights.lud"
+    ],
+    "board/space/connection/Scaffold.lud": [
+        "board/space/connection/Cross.lud",
+        "board/space/connection/Y (Hex).lud",
+        "board/space/connection/Hex.lud"
+    ],
+    "board/hunt/Sumi Naga Game (Hunt).lud": [
+        "board/hunt/Hund efter Hare (Vendsyssel).lud",
+        "board/hunt/Adugo.lud",
+        "board/hunt/Gala.lud"
+    ],
+    "board/hunt/La Liebre Perseguida.lud": [
+        "board/hunt/Gasetavl (Gedved).lud",
+        "board/hunt/Shi Liu Kan Tsiang Kun.lud",
+        "board/hunt/El Zorro.lud"
+    ],
+    "board/space/group/Mono.lud": [
+        "board/space/group/Elea.lud",
+        "board/space/group/Spao.lud",
+        "board/space/group/Feed the Ducks.lud"
+    ],
+    "board/space/line/Picaria.lud": [
+        "board/space/line/Round Merels.lud",
+        "board/space/line/Dai Hasami Shogi.lud",
+        "board/space/line/Yavalax.lud"
+    ],
+    "reconstruction/done/board/war/leaping/lines/Wan Fu Cave Game.lud": [
+        "reconstruction/done/board/war/leaping/lines/Manipur Capturing Game.lud",
+        "reconstruction/done/board/war/leaping/lines/Qirkat.lud",
+        "reconstruction/done/board/war/leaping/lines/Taptana.lud"
+    ],
+    "math/graph/Wagner.lud": [
+        "math/graph/Hackenbush.lud",
+        "math/graph/Dots and Boxes.lud",
+        "math/graph/MaxMatch.lud"
+    ]
+}

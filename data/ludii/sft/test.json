@@ -1,0 +1,82 @@
+[
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "A conversation between User and Assistant. The user asks a query, and the assistant correctly reason through a query to generate the appropriate Ludii game program. Write only Ludii game program based on the query in the given task. The answer should be enclosed within <program> </program> tags, i.e., <program> answer here </program>."
+            },
+            {
+                "role": "user",
+                "content": "<task>\n<query>\n<description>\nNgrin is an alignment game played by children in the Republic of Congo.\n</description>\n<rules>\nSquare with diagonals and lines connecting the midpoints of the sides. Three pieces per player. The first player places their piece in the center. Players alternate turns placing a piece on an empty spot on the board. The first player to make three in a row wins.\n</rules>\n</query>\n</task>"
+            },
+            {
+                "role": "assistant",
+                "content": "<program>\n(game \"Ngrin\"\n    (players 2)\n    (equipment\n        {\n            (board (square 3 diagonals:Alternating) use:Vertex)\n            (piece \"Marker\" Each)\n        }\n    )\n    (rules\n        phases:{\n            (phase\n                \"Opening\"\n                (play (move Add (to (centrePoint))))\n                (nextPhase \"Playing\")\n            )\n            (phase \"Playing\" (play (move Add (to (sites Empty)))))\n        }\n        (end (if (is Line 3) (result Mover Win)))\n    )\n)\n</program>"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "A conversation between User and Assistant. The user asks a query, and the assistant correctly reason through a query to generate the appropriate Ludii game program. Write only Ludii game program based on the query in the given task. The answer should be enclosed within <program> </program> tags, i.e., <program> answer here </program>."
+            },
+            {
+                "role": "user",
+                "content": "<task>\n<query>\n<description>\nTrique is an alignment game played by the Pijao people of Colombia during the nineteenth century. It was described as a game similar to Nine Men's Morris, but with more complex rules. It was thought to have been an indigenous game.\n</description>\n<rules>\n\"Three concentric squares, with lines connecting the midpoints of the sides. More complicated rules than Nine Men's Morris.\n</rules>\n</query>\n</task>"
+            },
+            {
+                "role": "assistant",
+                "content": "<program>\n(game \"Trique\"\n    (players 2)\n    (equipment\n        {\n            (board (concentric Square rings:3) use:Vertex)\n            (hand Each)\n            (piece \"Marker\"\n                Each\n                (or\n                    (move Step Orthogonal (to if:(is Empty (to))))\n                    (move\n                        Hop\n                        (between\n                            if:(is Enemy (who at:(between)))\n                            (apply (remove (between)))\n                        )\n                        (to if:(is Empty (to)))\n                        (then (moveAgain))\n                    )\n                )\n            )\n        }\n    )\n    (rules\n        (start (place \"Marker\" \"Hand\" count:12))\n        phases:{\n            (phase\n                \"Placement\"\n                (play\n                    (do\n                        (move (from (handSite Mover)) (to (sites Empty)))\n                        ifAfterwards:(not (is Line 3 Orthogonal))\n                    )\n                )\n                (nextPhase\n                    (all\n                        Sites\n                        (sites Hand P2)\n                        if:(= 0 (count Cell at:(site)))\n                    )\n                    \"Movement\"\n                )\n            )\n            (phase\n                \"Movement\"\n                (play\n                    (if\n                        (is Prev Mover)\n                        (move\n                            Remove\n                            (sites Occupied by:Enemy container:\"Board\")\n                        )\n                        (forEach Piece)\n                    )\n                )\n                (end (if (<= (count Pieces Next) 2) (result Next Loss)))\n            )\n        }\n    )\n)\n</program>"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "A conversation between User and Assistant. The user asks a query, and the assistant correctly reason through a query to generate the appropriate Ludii game program. Write only Ludii game program based on the query in the given task. The answer should be enclosed within <program> </program> tags, i.e., <program> answer here </program>."
+            },
+            {
+                "role": "user",
+                "content": "<task>\n<query>\n<description>\nInvented in 2000 by Dan Troyka, Breakthrough is a Chess variant played only with pawns.\n</description>\n<rules>\nPlayed on an 8x8 board with a double contingent of chess pawns. Pieces move forward one orthogonally or diagonally. Pieces can capture by moving diagonally. The first player to reach the opponent's edge of the board wins. A player also can win if they capture all of the opponent's pieces.\n</rules>\n</query>\n</task>"
+            },
+            {
+                "role": "assistant",
+                "content": "<program>\n(game \"Breakthrough\"\n    (players { (player N) (player S) })\n    (equipment\n        {\n            (board (square 8))\n            (piece \"Pawn\"\n                Each\n                (or\n                    {\n                        (move Step Forward (to if:(is Empty (to))))\n                        (move\n                            Step\n                            (directions { FR FL })\n                            (to\n                                if:(or\n                                    (is Empty (to))\n                                    (is Enemy (who at:(to)))\n                                )\n                                (apply (remove (to)))\n                            )\n                        )\n                    }\n                )\n            )\n            (regions P1 (sites Top))\n            (regions P2 (sites Bottom))\n        }\n    )\n    (rules\n        (start\n            {\n                (place \"Pawn1\" (expand (sites Bottom)))\n                (place \"Pawn2\" (expand (sites Top)))\n            }\n        )\n        (play (forEach Piece))\n        (end (if (is In (last To) (sites Mover)) (result Mover Win)))\n    )\n)\n</program>"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "A conversation between User and Assistant. The user asks a query, and the assistant correctly reason through a query to generate the appropriate Ludii game program. Write only Ludii game program based on the query in the given task. The answer should be enclosed within <program> </program> tags, i.e., <program> answer here </program>."
+            },
+            {
+                "role": "user",
+                "content": "<task>\n<query>\n<description>\nCaturvimsatikosthakatmiki Krida is a capturing game played during the nineteenth century in India. It is documented in the Kridakausalya by Harikrsna.\n</description>\n<rules>\n3x8 board. The second space from the left and from the right in the center row are marked with an X. Eight pieces per player, which begin in the row closest to the player. Players alternate turns moving a piece to an empty adjacent space in an orthogonal direction. On the first move of a piece, that piece may move two spaces in one direction. A player may capture an opponent's piece in the central row by hopping over it to an empty space on the opposite side of it. The player who reduces their opponent to fewer than four pieces wins.\n</rules>\n</query>\n</task>"
+            },
+            {
+                "role": "assistant",
+                "content": "<program>\n(game \"Caturvimsatikosthakatmiki Krida\"\n    (players 2)\n    (equipment\n        {\n            (board (rectangle 3 8))\n            (piece \"Marker\"\n                Each\n                (or\n                    {\n                        (move\n                            Hop\n                            Orthogonal\n                            (between\n                                if:(and\n                                    (is Enemy (who at:(between)))\n                                    (not\n                                        (is\n                                            In\n                                            (between)\n                                            (union (sites Bottom) (sites Top))\n                                        )\n                                    )\n                                )\n                                (apply (remove (between)))\n                            )\n                            (to if:(is Empty (to)))\n                        )\n                        (move Step Orthogonal (to if:(is Empty (to))))\n                        (if\n                            (= 1 (state at:(from)))\n                            (move\n                                Slide\n                                Orthogonal\n                                (between (exact 2) if:(is Empty (between)))\n                                (then (set State at:(last To) 0))\n                            )\n                        )\n                    }\n                )\n            )\n        }\n    )\n    (rules\n        (start\n            {\n                (place \"Marker1\" (sites Bottom) state:1)\n                (place \"Marker2\" (sites Top) state:1)\n            }\n        )\n        (play (forEach Piece))\n        (end (if (<= (count Pieces Next) 3) (result Next Loss)))\n    )\n)\n</program>"
+            }
+        ]
+    },
+    {
+        "messages": [
+            {
+                "role": "system",
+                "content": "A conversation between User and Assistant. The user asks a query, and the assistant correctly reason through a query to generate the appropriate Ludii game program. Write only Ludii game program based on the query in the given task. The answer should be enclosed within <program> </program> tags, i.e., <program> answer here </program>."
+            },
+            {
+                "role": "user",
+                "content": "<task>\n<query>\n<description>\nGale is a connection game on two overlapping rectangular grids to form a square game board.\n</description>\n<rules>\nA player wins by connecting opposite sides of the square board with a chain of their pieces.\n</rules>\n</query>\n</task>"
+            },
+            {
+                "role": "assistant",
+                "content": "<program>\n(game \"Gale\"\n    (players 2)\n    (equipment\n        {\n            (board (square 13))\n            (piece \"Square\" Each)\n            (regions P1 { (sites Top) (sites Bottom) })\n            (regions P2 { (sites Left) (sites Right) })\n        }\n    )\n    (rules\n        (start\n            {\n                (place\n                    \"Square1\"\n                    (forEach\n                        (sites Board)\n                        if:(and\n                            (is Even (column of:(site)))\n                            (is Odd (row of:(site)))\n                        )\n                    )\n                )\n                (place\n                    \"Square2\"\n                    (forEach\n                        (sites Board)\n                        if:(and\n                            (is Even (row of:(site)))\n                            (is Odd (column of:(site)))\n                        )\n                    )\n                )\n            }\n        )\n        (play (move Add (to (sites Empty))))\n        (end (if (is Connected Mover) (result Mover Win)))\n    )\n)\n</program>"
+            }
+        ]
+    }
+]
