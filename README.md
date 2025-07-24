@@ -121,7 +121,7 @@ uv run src/ggdg/evaluate.py log/gdg/Qwen2.5-1.5B-Instruct_SFT_GRPO/0
 ```
 
 ## Acknowledgements
-This repository is based on [ggdg](https://github.com/Tsunehiko/ggdg) and [open-r1](https://github.com/huggingface/open-r1).
+This repository is based on [ggdg](https://github.com/Tsunehiko/ggdg), [open-r1](https://github.com/huggingface/open-r1), and [Ludii](https://github.com/Ludeme/Ludii).
 
 ## Citation
 ```bibtex
